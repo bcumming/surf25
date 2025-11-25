@@ -11,6 +11,50 @@ November 2025
 [`bcumming.github.io/surf25`](https://bcumming.github.io/surf25/)
 
 ---
+layout: two-cols
+layoutClass: gap-2
+---
+
+# The winds of change: Alps
+
+Alps is a HPE Cray EX system with ~4000 nodes.
+
+* Use-case-specific and tenant-specific clusters;
+* **Aim**: communities take responsibility for software, documentation and support.
+
+<br>
+
+<div class="flex justify-center">
+    <img src="./images/alps-live.png" class="h-30" alt="alps on the floor">
+</div>
+
+<br>
+
+::right::
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="flex justify-center">
+    <img src="./images/alps-blah.png" class="h-60" alt="alps on the floor">
+</div>
+
+
+<!--
+Alps is a HPE Cray EX system with 4,000 nodes
+* started installation in 2020 with multi-core zen2 nodes
+* installed in phases
+* the largest phase of >10,000 GH200 was installed last year
+
+Differentiating feature is that Alps is partitioned into isolated clusters instead of a monolith with partitions
+* each cluster is customised for community or use case: independent slurm, different storage, different software environments
+* by providing per-customer systems we aim to also have the communities take more responsibility for the software stacks
+-->
+
+---
 layout: two-cols-header
 ---
 
@@ -70,49 +114,6 @@ Other options exist: e.g. containers
 -->
 
 
----
-layout: two-cols
-layoutClass: gap-2
----
-
-# The winds of change: Alps
-
-Alps is a HPE Cray EX system with ~4000 nodes.
-
-* Use-case-specific and tenant-specific clusters;
-* **Aim**: communities take responsibility for software, documentation and support.
-
-<br>
-
-<div class="flex justify-center">
-    <img src="./images/alps-live.png" class="h-30" alt="alps on the floor">
-</div>
-
-<br>
-
-::right::
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<div class="flex justify-center">
-    <img src="./images/alps-blah.png" class="h-60" alt="alps on the floor">
-</div>
-
-
-<!--
-Alps is a HPE Cray EX system with 4,000 nodes
-* started installation in 2020 with multi-core zen2 nodes
-* installed in phases
-* the largest phase of >10,000 GH200 was installed last year
-
-Differentiating feature is that Alps is partitioned into isolated clusters instead of a monolith with partitions
-* each cluster is customised for community or use case: independent slurm, different storage, different software environments
-* by providing per-customer systems we aim to also have the communities take more responsibility for the software stacks
--->
 
 ---
 layout: two-cols-header
