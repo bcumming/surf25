@@ -6,7 +6,7 @@ theme: ./slidev-theme-cscs
 
 Ben Cumming
 
-CUG 2025
+November 2025
 
 [`bcumming.github.io/surf25`](https://bcumming.github.io/surf25/)
 
