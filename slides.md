@@ -677,6 +677,26 @@ Provides two environments:
 
 ---
 
+<div class="flex items-center gap-0">
+  <h1 class="font-normal">Climate and Weather Community</h1>
+  <img src="./images/c2sm.gif" class="h-20 ml-4" alt="alps icon">
+  <img src="./images/mch.png" class="h-10" alt="right alps">
+</div>
+
+The *Center for Climat Systems Modeling* (C2SM) used Daint
+- C2SM are a user, and support a large community using ICON
+- C2SM developed their own Spack based workflow for building ICON
+- CSCS provides stack = MPI, compiler, CUDA, HDF5, netcdf, ...
+- **before**: slow iteration speed on a TDS to test and tweak, and we would not upgrade until they were happy because the same env provided to all users
+
+CSCS hosts MeteoSwiss on Alps:
+- production sofwtare stack provided by CSCS
+
+- **aim**: help C2SM be more resiliant, and take control of providing support.
+- **aim**: help MeteoSwiss take more control of their production environment.
+
+---
+
 # Building blocks for community engagement
 
 <div class="flex justify-center">
@@ -697,6 +717,25 @@ CSCS hosts MCH on Alps:
 **AIM** How can C2SM become more resiliant, and take control of providing support?
 **AIM** How can MCH take more control of their pro
 -->
+
+---
+
+# Deploying uenv
+
+The uenv tool is an open source C++ project [`github.com/eth-cscs/uenv2`](https://github.com/eth-cscs/uenv2)
+
+* When a new tag is created we build RPMs
+* `[x86_64, aarch64] x [sles15.5, sles15.6] x [slurm-versions]`
+
+A **uenv vService** deploys the tool:
+
+1. detect the version of Slurm, uarch and OS version on the system
+2. download the correct RPM and install it
+    * Slurm Plugin
+    * CLI tool
+3. configure the Slurm plugin
+4. create mount points
+5. create the system uenv configuration file
 
 ---
 
@@ -742,26 +781,6 @@ or...
 <br>
 
 Grab a coffee and chat outside later
-
----
-
-<div class="flex items-center gap-0">
-  <h1 class="font-normal">Climate and Weather Community</h1>
-  <img src="./images/c2sm.gif" class="h-20 ml-4" alt="alps icon">
-  <img src="./images/mch.png" class="h-10" alt="right alps">
-</div>
-
-The *Center for Climat Systems Modeling* (C2SM) used Daint
-- C2SM are a user, and support a large community using ICON
-- C2SM developed their own Spack based workflow for building ICON
-- CSCS provides stack = MPI, compiler, CUDA, HDF5, netcdf, ...
-- **before**: slow iteration speed on a TDS to test and tweak, and we would not upgrade until they were happy because the same env provided to all users
-
-CSCS hosts MCH on Alps:
-- production sofwtare stack provided by CSCS
-
-**AIM** How can C2SM become more resiliant, and take control of providing support?
-**AIM** How can MCH take more control of their pro
 
 ---
 
