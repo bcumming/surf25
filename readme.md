@@ -8,4 +8,4 @@ You can serve them locally with an OCI container engine like [podman](https://po
 ./serve.sh
 ```
 
-The docs are deployed automatically to [GitHub Pages](https://bcumming.github.io/uenv-userlab-2025).
+The docs are deployed automatically to [GitHub Pages](https://bcumming.github.io/surf25).
