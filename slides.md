@@ -6,9 +6,7 @@ theme: ./slidev-theme-cscs
 
 Ben Cumming
 
-November 2025
-
-[`bcumming.github.io/surf25`](https://bcumming.github.io/surf25/)
+April 2026
 
 ---
 layout: two-cols
@@ -260,7 +258,7 @@ The uenv runtime is a CLI tool and SLURM plugin for mounting SquashFS and config
 
 <div v-click>
 
-**Open source:** [github.com/eth-cscs/uenv2](https://github.com/eth-cscs/uenv2)
+**Open source:** [github.com/eth-cscs/uenv](https://github.com/eth-cscs/uenv2)
 * CLI is a statically linked binary
 * SLURM plugin and CLI share a common implementation
 * RPMs for x86 and aarch64 are built by CI
@@ -269,14 +267,8 @@ The uenv runtime is a CLI tool and SLURM plugin for mounting SquashFS and config
 </div v-click>
 
 <br>
-
-<div v-click class="text-x1">
-
-**Why is it called uenv2?**
-* The first version was written in Python, then we rewrote it in C++.
-* You could also modify the environment with a command similar to `module load`.
-
-</div>
+<br>
+<br>
 
 ---
 layout: two-cols-header
@@ -770,16 +762,4 @@ A **uenv vService** deploys the tool:
 ---
 
 # Questions
-
-<br>
-
-Ask now if we have time
-
-<br>
-
-or...
-
-<br>
-
-Grab a coffee and chat outside later
 
